@@ -1,5 +1,2 @@
-<<<<<<< HEAD
 web: gunicorn app:app
-=======
-web: gunicorn app:app
->>>>>>> 5b40b1f (Add runtime and config files)
+
