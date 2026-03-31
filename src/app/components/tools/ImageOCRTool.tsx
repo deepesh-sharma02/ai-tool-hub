@@ -35,7 +35,7 @@ interface ImageOCRToolProps {
 
 type ToolType = 'image' | 'pdf' | 'handwriting' | 'table' | 'multilang' | 'batch' | 'webcam';
 
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://ai-tool-hub-4a7n.onrender.com';
 
 const tools = [
   { id: 'image', icon: ImageIcon, label: 'Image OCR', desc: 'JPG/PNG -> Text' },
