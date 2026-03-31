@@ -12,7 +12,7 @@ gtts==2.5.0
 PyPDF2==3.0.1
 pytesseract==0.3.10
 Pillow
-=======
+
 Pillow==9.5.0
 pdf2docx==0.5.6
 python-docx==1.1.0
