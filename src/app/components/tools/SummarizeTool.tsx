@@ -55,7 +55,7 @@ const translations = {
   },
 };
 
-const API_BASE_URL = 'https://ai-tool-hub-4a7n.onrender.com/api/ai/summarize';
+const API_BASE_URL = 'https://ai-tool-hub-4a7n.onrender.com/api';
 
 export function SummarizeTool({ onBack, language }: SummarizeToolProps) {
   const t = translations[language];
