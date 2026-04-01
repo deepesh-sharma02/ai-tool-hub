@@ -85,7 +85,7 @@ const translations = {
   },
 };
 
-const API_BASE_URL = 'https://ai-tool-hub-4a7n.onrender.com/api';
+const API_BASE_URL = 'https://ai-tool-hub-4a7n.onrender.com/api/career';
 
 export function CareerWizard({ onBack, language }: CareerWizardProps) {
   const t = translations[language];
