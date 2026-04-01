@@ -28,7 +28,7 @@ const translations = {
   },
 };
 
-const API_BASE_URL = 'https://ai-tool-hub-4a7n.onrender.com/api';
+const API_BASE_URL = 'https://ai-tool-hub-4a7n.onrender.com/api/ai/ask-question';
 
 export function AskQuestionTool({ onBack, language }: AskQuestionToolProps) {
   const t = translations[language];
