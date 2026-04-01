@@ -43,7 +43,7 @@ const translations = {
   },
 };
 
-const API_BASE_URL = 'https://ai-tool-hub-4a7n.onrender.com';
+const API_BASE_URL = 'https://ai-tool-hub-4a7n.onrender.com/api/ai/spell-check';
 
 export function SpellCheckTool({ onBack, language }: SpellCheckToolProps) {
   const t = translations[language];
