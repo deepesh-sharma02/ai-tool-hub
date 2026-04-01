@@ -52,7 +52,7 @@ const translations = {
   },
 };
 
-const API_BASE_URL = 'https://ai-tool-hub-4a7n.onrender.com/api';
+const API_BASE_URL = 'https://ai-tool-hub-4a7n.onrender.com/api/ai/text-to-speech';
 
 export function SpeechToTextTool({ onBack, language }: SpeechToTextToolProps) {
   const t = translations[language];
