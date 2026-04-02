@@ -82,7 +82,7 @@ interface Item {
   price: number;
 }
 
-const API_BASE_URL = 'https://ai-tool-hub-4a7n.onrender.com';
+const API_BASE_URL = 'https://ai-tool-hub-4a7n.onrender.com/api';
 
 export function InvoiceTool({ onBack, language }: InvoiceToolProps) {
   const t = translations[language];
