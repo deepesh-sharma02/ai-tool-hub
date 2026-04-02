@@ -37,7 +37,7 @@ const translations = {
   },
 };
 
-const API_BASE_URL = 'https://ai-tool-hub-4a7n.onrender.com';
+const API_BASE_URL = 'https://ai-tool-hub-4a7n.onrender.com/api';
 
 export function PDFConverterTool({ onBack, language }: PDFConverterToolProps) {
   const t = translations[language];
